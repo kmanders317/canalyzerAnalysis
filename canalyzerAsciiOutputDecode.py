@@ -81,8 +81,8 @@ df.columns
 invdf.columns
 
 plt.plot(df["Second"],df["brake2_psi"])
-plt.plot(df["Second"],df["brake1_psi"])
+plt.plot(df["Second"],df["acc0"])
 plt.plot(df["Second"],df["torque_signal_small"])
 plt.plot(invdf["Second"],invdf["INV_Motor_Speed"])
-plt.legend(["brake2", "brake1", "torque", "speed"])
+plt.legend(["brake2", "acc0", "torque", "speed"])
 plt.show()
